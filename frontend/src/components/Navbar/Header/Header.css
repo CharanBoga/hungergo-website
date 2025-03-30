@@ -1,0 +1,75 @@
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background: url('./header_img.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 10vw 4vw;
+}
+
+.header-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+    max-width: 55%;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: white;
+    font-size: clamp(1.8rem, 3vw, 3rem); 
+}
+
+.header-contents p {
+    color: white;
+    font-size: clamp(0.9rem, 1.2vw, 1rem); 
+}
+
+@media (max-width: 1050px) {
+    .header {
+        height: 40vw; 
+        padding: 5vw 6vw;
+    }
+    .header-contents {
+        max-width: 60%;
+        gap: 2.5rem;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .header {
+        height: 45vw; 
+        padding: 6vw 5vw;
+    }
+    .header-contents {
+        max-width: 80%;
+        gap: 2rem;
+    }
+    .header-contents p {
+        font-size: 0.85rem;
+        opacity: 0.85; 
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        height: 50vw; 
+        padding: 7vw 5vw;
+    }
+    .header-contents {
+        max-width: 90%;
+        gap: 1.5rem;
+    }
+    .header-contents h2 {
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
+    .header-contents p {
+        font-size: 0.8rem;
+        opacity: 0.9; 
+    }
+}
