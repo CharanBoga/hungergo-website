@@ -6,14 +6,14 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    padding: 8vw 4vw;
+    padding: 9vw 4vw;
 }
 
 .header-contents {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 3rem;
+    gap: 2rem;
     max-width: 50%;
     animation: fadeIn 3s;
 }
