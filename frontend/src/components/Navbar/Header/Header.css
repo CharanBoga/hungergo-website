@@ -6,7 +6,7 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    padding: 9vw 4vw;
+    padding: 8vw 7vw;
 }
 
 .header-contents {
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: start;
     gap: 2rem;
-    max-width: 50%;
+    max-width: 60%;
     animation: fadeIn 3s;
 }
 
