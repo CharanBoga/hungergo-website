@@ -1,11 +1,11 @@
-# TOMATO - Food Ordering Website
+# HungerGo - Food Ordering Website
 
-This repository hosts the source code for TOMATO, a dynamic food ordering website built with the MERN Stack. It offers a user-friendly platform for seamless online food ordering.
+HungerGo is a modern food ordering website built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides a seamless platform for users to browse restaurants, explore menus, add items to the cart, and place orders with ease.
 
 ## Demo
 
-- User Panel: [https://food-delivery-frontend-s2l9.onrender.com/](https://food-delivery-frontend-s2l9.onrender.com/)
-- Admin Panel: [https://food-delivery-admin-wrme.onrender.com/](https://food-delivery-admin-wrme.onrender.com/)
+- User Panel: https://hungergo-website-frontend.onrender.com
+- Admin Panel: https://hungergo-website-admin.onrender.com
 
 ## Features
 
@@ -27,26 +27,13 @@ This repository hosts the source code for TOMATO, a dynamic food ordering websit
 - Role-Based Identification
 - Beautiful Alerts
 
-## Screenshots
-
-![Hero](https://i.ibb.co/59cwY75/food-hero.png)
-- Hero Section
-
-![Products](https://i.ibb.co/JnNQPyQ/food-products.png)
-- Products Section
-
-![Cart](https://i.ibb.co/t2LrQ8p/food-cart.png)
-- Cart Page
-
-![Login](https://i.ibb.co/s6PgwkZ/food-login.png)
-- Login Popup
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-    git clone https://github.com/Mshandev/Food-Delivery
+    git clone https://github.com/CharanBoga/hungergo-website
 ```
 Go to the project directory
 
@@ -125,6 +112,3 @@ The application is deployed on Render.
 Contributions are always welcome!
 Just raise an issue, and we will discuss it.
 
-## Feedback
-
-If you have any feedback, please reach out to me [here](https://www.linkedin.com/in/muhammad-shan-full-stack-developer/)
