@@ -47,7 +47,7 @@
         padding: 6vw 5vw;
     }
     .header-contents {
-        max-width: 70%;
+        max-width: 90%;
         gap: 2rem;
     }
     .header-contents p {
@@ -62,7 +62,7 @@
         padding: 7vw 5vw;
     }
     .header-contents {
-        max-width: 80%;
+        max-width: 100%;
         gap: 1.5rem;
     }
     .header-contents h2 {
