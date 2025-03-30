@@ -1,12 +1,12 @@
 .header {
-    height: 34vw;
+    height: 35vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat center;
     background-size: cover;
     position: relative;
     display: flex;
     align-items: flex-end;
-    padding: 10vw 4vw;
+    padding: 8vw 4vw;
 }
 
 .header-contents {
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: start;
     gap: 3rem;
-    max-width: 55%;
+    max-width: 50%;
     animation: fadeIn 3s;
 }
 
@@ -35,7 +35,7 @@
         padding: 5vw 6vw;
     }
     .header-contents {
-        max-width: 60%;
+        max-width: 50%;
         gap: 2.5rem;
     }
 }
@@ -43,7 +43,7 @@
 
 @media (max-width: 750px) {
     .header {
-        height: 45vw; 
+        height: 40vw; 
         padding: 6vw 5vw;
     }
     .header-contents {
